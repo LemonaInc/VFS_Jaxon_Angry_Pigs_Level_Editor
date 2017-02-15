@@ -1,0 +1,97 @@
+body {
+  background-color: #282C34;
+}
+box {
+  width:  800px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.header {
+  background-image: url('img/Forest.jpg');
+  background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  /*height: 100vh;*/
+  z-index: 1;
+  height: 100vh;
+}
+
+grid {
+  width:800px;
+  height:800px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px white;
+
+}
+
+
+
+object {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+Ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+}
+
+wall {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px white;
+}
+
+LargeWall {
+  width: 500px;
+  height: 77px;
+  box-shadow: 0px 0px 2px white;
+
+}
+
+SmallWall {
+  width: 700px;
+  height: 558px;
+  box-shadow: 0px 0px 2px white;
+
+}
+
+grass {
+
+  width: 800px;
+  height: 79px;
+  box-shadow: 0px 0px 2px white;
+
+}
+
+#Grass {
+
+  background-image: url("img/Grass.png");
+
+}
+
+#Wall {
+  background-image: url("img/Wall.png");
+
+}
+
+#Bird {
+  background-image: url("img/Bird.png");
+
+}
+
+#LargeWall {
+  background-image: url("img/LargeWall.png");
+}
+
+#SmallWall {
+  background-image: url("img/Cannon.png");
+}
+
+#Ball {
+  background-image: url("img/Ball.png");
+}
